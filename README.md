@@ -9,7 +9,9 @@ This REP reproduces exactly Figure 4 and Figure 5 of the paper. After execution,
 
 ## Running instructions
 
-This REP is written in Julia and can be executed in two different ways: either (1) via the notebook `RP.ipynb`, or (2) directly by executing the replica `RP.jl`. In both ways, it is first needed to [install Julia](https://julialang.org/downloads/). The first option (notebook) allows for a better readability of the code and the documentation, while the second (replica) is simpler and faster. 
+This REP is written in Julia and can be executed in two different ways: either (1) via the notebook `RP.ipynb`, or (2) directly by executing the replica `RP.jl`. The first option (notebook) allows for a better readability of the code and the documentation, while the second (replica) is simpler and faster. 
+
+In both options, it is first needed to [install Julia](https://julialang.org/downloads/).
 
 ### Option 1: run the notebook
 
