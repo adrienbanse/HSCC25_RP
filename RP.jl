@@ -8,14 +8,14 @@
 #       format_version: '1.5'
 #       jupytext_version: 1.15.2
 #   kernelspec:
-#     display_name: Julia 1.11.2
+#     display_name: Julia 1.11.3
 #     language: julia
 #     name: julia-1.11
 # ---
 
 # ## Introduction
 #
-# This notebooks reproduces Figure 4 and Figure 5 of the paper "**Memory-dependent abstractions of stochastic systems through the lens of transfer operators**", accepted for presentation at the 28th ACM International Conference on Hybrid Systems: Computation and Control (Irvine, California, May 6-9 2025).
+# This notebook reproduces Figure 4 and Figure 5 of the paper "**Memory-dependent abstractions of stochastic systems through the lens of transfer operators**", accepted for presentation at the 28th ACM International Conference on Hybrid Systems: Computation and Control (Irvine, California, May 6-9 2025).
 #
 # First, we import the necessary packages, and we set a seed for the trajectory sampling. Note that the conclusions of the numerical experiments do not depend on the seed.
 
@@ -377,6 +377,3 @@ ylabel!(p, "\$ \\mathsf{TV}(\\lambda_{k}, \\tilde{\\lambda}_{\\ell, k})\$")
 display(p)
 
 savefig(p, "figure_5.pdf")
-# -
-
-#
