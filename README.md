@@ -38,7 +38,7 @@ In both options, it is first needed to [install Julia](https://julialang.org/dow
    julia> using IJulia; notebook()
    ```
    It is likely that it is asked to install `Jupyter` if it is the first time that you use `IJulia`, answer `y` to do so.
-5. Execute the notebook cell by cell.
+5. Open in Jupyter the notebook `RP.ipynb`, and execute it cell by cell.
   
 ### Option 2: run the replica
 
