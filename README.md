@@ -15,7 +15,7 @@ In both options, it is first needed to [install Julia](https://julialang.org/dow
 
 ### Option 1: run the notebook
 
-1. Navigate to the `HSCC25_RP` repository. 
+1. Navigate to the `HSCC25_RP` repository, and open the Julia REPL. 
 2. (If needed) Install `IJulia` by running
    ```julia-repl
    julia> using Pkg
