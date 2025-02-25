@@ -43,7 +43,7 @@ This REP is written in Julia and can be executed in two different ways: either (
 
 1. Open Docker, and make sure that you allow for at least 16GB of memory use.
 2. Navigate to the `HSCC25_RP` repository.
-3. Run `make docker`
+3. Run `bash run.sh`
 
 If, in addition, you want to make sure that `RP.jl` is indeed a replica of the notebook, you can re-execute the replica command. First, [install Jupytext](https://jupytext.readthedocs.io/en/latest/), and then run `jupytext --to jl RP.ipynb` in your terminal. This command will replace the existing `RP.jl` file with the output of `jupytext`.
 
