@@ -9,11 +9,13 @@ This REP reproduces exactly Figure 4 and Figure 5 of the paper. After execution,
 
 ## Running instructions
 
-This REP is written in Julia and can be executed in two different ways: either (1) via the notebook `RP.ipynb`, or (2) directly by executing the replica `RP.jl`. In both ways, it is first needed to [install Julia](https://julialang.org/downloads/). The first option (notebook) allows for a better readability of the code and the documentation, while the second (replica) is simpler and faster. 
+This REP is written in Julia and can be executed in two different ways: either (1) via the notebook `RP.ipynb`, or (2) directly by executing the replica `RP.jl`. The first option (notebook) allows for a better readability of the code and the documentation, while the second (replica) is simpler and faster. 
+
+In both options, it is first needed to [install Julia](https://julialang.org/downloads/).
 
 ### Option 1: run the notebook
 
-1. Navigate to the `HSCC25_RP` repository. 
+1. Navigate to the `HSCC25_RP` repository, and open the Julia REPL. 
 2. (If needed) Install `IJulia` by running
    ```julia-repl
    julia> using Pkg
@@ -36,7 +38,7 @@ This REP is written in Julia and can be executed in two different ways: either (
    julia> using IJulia; notebook()
    ```
    It is likely that it is asked to install `Jupyter` if it is the first time that you use `IJulia`, answer `y` to do so.
-5. Execute the notebook cell by cell.
+5. Open in Jupyter the notebook `RP.ipynb`, and execute it cell by cell.
   
 ### Option 2: run the replica
 
