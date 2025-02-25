@@ -1,4 +1,5 @@
 /.vscode
 Manifest.toml
 .ipynb_checkpoints/
-/output/*
+/output/figure_4.pdf
+/output/figure_5.pdf
