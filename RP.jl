@@ -350,7 +350,7 @@ xlabel!(p, "Horizon k")
 ylabel!(p, "\$ \\mathsf{TV}(\\lambda_{k}, \\tilde{\\lambda}_{\\ell, k})\$")
 display(p)
 
-savefig(p, "figure_4.pdf")
+savefig(p, "output/figure_4.pdf")
 # -
 
 # ### Figure 5
@@ -376,4 +376,4 @@ xlabel!(p, "Horizon k")
 ylabel!(p, "\$ \\mathsf{TV}(\\lambda_{k}, \\tilde{\\lambda}_{\\ell, k})\$")
 display(p)
 
-savefig(p, "figure_5.pdf")
+savefig(p, "output/figure_5.pdf")
